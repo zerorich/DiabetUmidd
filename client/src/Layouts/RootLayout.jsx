@@ -6,7 +6,7 @@ import logo from "../assets/DiabetUmidLogo.svg"
 import heart from "../assets/Heart.svg"
 import arrow from "../assets/arrow.svg"
 import instagram from "../assets/Instagram.svg"
-import facebook from "../assets/Facebook.svg"
+import facebook from "../assets/FaceBook.svg"
 const RootLayout = () => {
     return (
         <>
