@@ -11,8 +11,8 @@ const NavBar = ({ logo, heart, arrow }) => {
 
     useEffect(() => {
         if (menuOpen) {
-            document.body.style.overflow = 'hidden';
-            document.documentElement.style.overflow = 'hidden';
+            document.body.style.overflow = 'auto';
+            document.documentElement.style.overflow = 'auto';
         } else {
             document.body.style.overflow = 'auto';
             document.documentElement.style.overflow = 'auto';

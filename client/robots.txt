@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /404/
+Disallow: /*?*
+
+# Укажите путь к sitemap (обязательно для SEO)
+Sitemap: https://ваш-сайт.com/sitemap.xml

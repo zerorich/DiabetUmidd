@@ -90,7 +90,7 @@ const NewsCarousel = ({ news }) => {
                     <button
                         key={index}
                         onClick={() => goToSlide(index)}
-                        className={`w-3 h-3 rounded-full ${currentIndex === index ? 'bg-blue-600' : 'bg-gray-300'}`}
+                        className={`w-3 h-3 p-2 rounded-full ${currentIndex === index ? 'bg-blue-600' : 'bg-gray-300'}`}
                         aria-label={`Перейти к слайду ${index + 1}`}
                     />
                 ))}

@@ -2,6 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import n5 from "../../assets/n5.jpg";
 import n6 from "../../assets/n6.jpg";
+import NewsFeed from "./NewsCarousel";
 
 const newsData = [
     {
@@ -56,7 +57,7 @@ const NewsDetail = () => {
     }
 
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gray-50 px-2">
             <div className="max-w-3xl mx-auto py-8">
                 <button onClick={() => navigate(-1)} className="mb-4 text-blue-600 hover:underline">Назад</button>
                 <h1 className="text-3xl font-bold mb-2">{article.title}</h1>
@@ -64,6 +65,7 @@ const NewsDetail = () => {
                 {article.image && <img src={article.image} alt={article.title} className="mb-6 rounded-xl" />}
                 <div className="prose max-w-none">{article.fullContent}</div>
             </div>
+            <NewsFeed/>
         </div>
     );
 };
